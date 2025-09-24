@@ -117,7 +117,7 @@ fn on_presence_updated(
             activity.details = "".to_string();
             activity.state = "Loading...".to_string();
             activity.large_image = Some("northstar".to_string());
-            activity.large_text = Some("Titanfall 2 + Northstar".to_string());
+            activity.large_text = Some("Titanfall 2".to_string());
             activity.end = None;
         }
         GameState::MainMenu => {
@@ -125,7 +125,7 @@ fn on_presence_updated(
             activity.details = "Main Menu".to_string();
             activity.state = "On Main Menu".to_string();
             activity.large_image = Some("northstar".to_string());
-            activity.large_text = Some("Titanfall 2 + Northstar".to_string());
+            activity.large_text = Some("Titanfall 2".to_string());
             activity.end = None;
         }
         GameState::Lobby => {
@@ -136,7 +136,7 @@ fn on_presence_updated(
             activity.details = "Lobby".to_string();
             activity.state = "In the Lobby".to_string();
             activity.large_image = Some("northstar".to_string());
-            activity.large_text = Some("Titanfall 2 + Northstar".to_string());
+            activity.large_text = Some("Titanfall 2".to_string());
             activity.end = None;
         }
         GameState::InGame => {
@@ -151,7 +151,7 @@ fn on_presence_updated(
             activity.large_image = Some(cl_presence.map.clone());
             activity.large_text = Some(map_displayname);
             activity.small_image = Some("northstar".to_string());
-            activity.small_text = Some("Titanfall 2 + Northstar".to_string());
+            activity.small_text = Some("Titanfall 2".to_string());
             if cl_presence.playlist == "campaign" {
                 activity.party = None;
                 activity.end = None;
