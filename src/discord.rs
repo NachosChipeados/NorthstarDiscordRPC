@@ -15,7 +15,7 @@ use tokio::sync::broadcast::Receiver;
 use crate::{exports::PLUGIN, invite_handler::JOIN_HANDLER_FUNCTION};
 
 /// the discord app's id, taken from older v1 discord rpc
-const APP_ID: i64 = 941428101429231617;
+const APP_ID: i64 = 1420249404048146513;
 
 /// struct to hold everything required to run discord rpc
 #[allow(dead_code)]
