@@ -116,7 +116,7 @@ fn on_presence_updated(
             activity.party = None;
             activity.details = "".to_string();
             activity.state = "Loading...".to_string();
-            activity.large_image = Some("northstar".to_string());
+            activity.large_image = Some("vanillaplus_trans".to_string());
             activity.large_text = Some("Titanfall 2".to_string());
             activity.end = None;
         }
@@ -124,7 +124,7 @@ fn on_presence_updated(
             activity.party = None;
             activity.details = "Main Menu".to_string();
             activity.state = "On Main Menu".to_string();
-            activity.large_image = Some("northstar".to_string());
+            activity.large_image = Some("vanillaplus_trans".to_string());
             activity.large_text = Some("Titanfall 2".to_string());
             activity.end = None;
         }
@@ -135,7 +135,7 @@ fn on_presence_updated(
             ));
             activity.details = "Lobby".to_string();
             activity.state = "In the Lobby".to_string();
-            activity.large_image = Some("northstar".to_string());
+            activity.large_image = Some("vanillaplus_trans".to_string());
             activity.large_text = Some("Titanfall 2".to_string());
             activity.end = None;
         }
@@ -150,7 +150,7 @@ fn on_presence_updated(
             map_displayname.clone_into(&mut activity.state);
             activity.large_image = Some(cl_presence.map.clone());
             activity.large_text = Some(map_displayname);
-            activity.small_image = Some("northstar".to_string());
+            activity.small_image = Some("vanillaplus_trans".to_string());
             activity.small_text = Some("Titanfall 2".to_string());
             if cl_presence.playlist == "campaign" {
                 activity.party = None;
