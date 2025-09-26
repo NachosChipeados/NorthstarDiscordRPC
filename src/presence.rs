@@ -154,8 +154,8 @@ fn on_presence_updated(
             activity.small_text = Some("Titanfall 2".to_string());
             if cl_presence.playlist == "solo" {
                 activity.party = None;
-                activity.end = None;
                 activity.state = "Playing Singleplayer".to_string();
+                activity.end = None;
             } else if cl_presence.playlist == "fd" {
                 cl_presence
                     .playlist_displayname
