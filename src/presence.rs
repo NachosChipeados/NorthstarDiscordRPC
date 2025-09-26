@@ -152,7 +152,7 @@ fn on_presence_updated(
             activity.large_text = Some(map_displayname);
             activity.small_image = Some("vanillaplus_trans".to_string());
             activity.small_text = Some("Titanfall 2".to_string());
-            if cl_presence.playlist == "campaign" {
+            if cl_presence.playlist == "solo" {
                 activity.party = None;
                 activity.end = None;
             } else if cl_presence.playlist == "fd" {
