@@ -12,5 +12,5 @@ tokio = "1.26.0"
 parking_lot = "0.12.1"
 
 [lib]
-name = "DiscordRPC"
+name = "test123"
 crate-type = ["cdylib"]
