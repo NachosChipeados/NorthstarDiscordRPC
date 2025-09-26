@@ -155,6 +155,7 @@ fn on_presence_updated(
             if cl_presence.playlist == "solo" {
                 activity.party = None;
                 activity.end = None;
+                activity.state = "Playing Singleplayer".to_string();
             } else if cl_presence.playlist == "fd" {
                 cl_presence
                     .playlist_displayname
